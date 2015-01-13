@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Prinzhorn/skrollr-menu.git"
+    "url": "git://github.com/arm1n/skrollr-menu.git"
   },
   "bugs": {
-    "url": "https://github.com/Prinzhorn/skrollr-menu/issues"
+    "url": "https://github.com/arm1n/skrollr-menu/issues"
   },
   "licenses": [
     {
