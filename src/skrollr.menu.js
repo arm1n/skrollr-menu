@@ -215,9 +215,9 @@
 	};
 
 	//Expose the handleLink function to be able to programmatically trigger clicks.
-	skrollr.menu.click = function(link) {
+	skrollr.menu.click = function(link,fake) {
 		//We're not assigning it directly to `click` because of the second ("private") parameter.
-		handleLink(link);
+		handleLink(link,fake);
 	};
 
 	//Private reference to the initialized skrollr.
