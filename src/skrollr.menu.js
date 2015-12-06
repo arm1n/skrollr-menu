@@ -200,7 +200,7 @@
 		//Use event bubbling and attach a single listener to the document.
 		skrollr.addEvent(document, 'click', handleClick);
 
-		if(supportsHistory) {
+		/*if(supportsHistory) {
 			skrollr.addEvent(window, 'popstate', function(e) {
 				var state = e.state || {};
 				var top = state.top || 0;
@@ -209,7 +209,7 @@
 					_skrollrInstance.setScrollTop(top);
 				});
 			}, false);
-		}
+		}*/
 
 		jumpStraightToHash();
 	};
