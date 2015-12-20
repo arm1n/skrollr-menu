@@ -186,3 +186,4 @@ Changelog
 -----
 
 * Moved skrollr-menu to a dedicated repo
+
